@@ -1,0 +1,76 @@
+version: 2.1
+orbs:
+  cypress: cypress-io/cypress@1.28.0
+  win: circleci/windows@1
+
+executors:
+  chrome-and-firefox:
+    docker:
+      - image: "cypress/browsers:node14.17.0-chrome88-ff89"
+
+jobs:
+  E2E-test:
+    executor: cypress/base-14
+    parallelism: 2
+    steps:
+      - checkout
+      - restore_cache:
+          key: 'dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "package.json" }}'
+      - save_cache:
+          key: 'dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "package.json" }}'
+          paths:
+            - "C:\\Users\\circleci\\AppData\\Local\\Cypress\\Cache"
+            - "C:\\Users\\circleci\\AppData\\Roaming\\npm-cache"
+      - run:
+          command: |
+            npm install 
+            npm run cy:run --record
+          name: "UI test"
+    working_directory: ~/app
+
+workflows:
+  E2E-workflow:
+    jobs:
+      - cypress/install
+      - cypress/run:
+          name: E2E-test
+          requires:
+            - cypress/install
+          cache-key: 'cache-{{ arch }}-{{ .Branch }}-{{ checksum "package.json" }}'
+          record: true
+          parallel: true
+          parallelism: 6
+          group: 6x electron machine
+  Feature-workflow:
+    jobs:
+      - cypress/install
+      - cypress/run:
+          name: Access-test
+          spec: cypress/integration/access/*
+          requires:
+            - cypress/install
+          cache-key: 'cache-{{ arch }}-{{ .Branch }}-{{ checksum "package.json" }}'
+          executor: chrome-and-firefox
+          browser: firefox
+          record: true
+          parallel: false
+          parallelism: 1
+          group: 1x firefox machine
+      - cypress/run:
+          name: Nuegov-test
+          spec: cypress/integration/nuegov/**
+          requires:
+            - cypress/install
+          cache-key: 'cache-{{ arch }}-{{ .Branch }}-{{ checksum "package.json" }}'
+          executor: chrome-and-firefox
+          browser: chrome
+          record: true
+          parallel: true
+          parallelism: 3
+          group: 3x chrome
+      - cypress/run:
+          name: API-test
+          record: true
+          spec: cypress/integration/api/**
+          requires:
+            - cypress/install
