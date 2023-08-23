@@ -1,0 +1,80 @@
+.demo-image-preview {
+    position: relative;
+    text-align: center;
+  }
+  
+  .demo-image-preview > img {
+    width: 400px;
+    height:350px;
+    margin-top: 5%;
+    margin-right: 5%;
+
+  }
+  
+  @media(max-width:300px){
+    .demo-image-preview > img {
+      width: 100%;
+      height: 50%;
+    }
+  }
+  
+  /* fullscreen enable by props */
+  .demo-image-preview-fullscreen > img {
+    width: 100vw;
+    height:100vh;
+  }
+
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+   
+  .react-html5-camera-photo {
+    position: relative;
+    text-align: center;
+  }
+  
+  .react-html5-camera-photo > video {
+    width: 410px;
+  }
+  
+  .react-html5-camera-photo > img {
+    width: 410px;
+  }
+  
+  .react-html5-camera-photo > .display-error {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  @media(max-width:400px){
+    .react-html5-camera-photo > video, .react-html5-camera-photo > img {
+      width: 100%;
+    }
+    .react-html5-camera-photo > .display-error {
+      width: 100%;
+    }
+  }
+  
+  /* fullscreen enable by props */
+  .react-html5-camera-photo-fullscreen > video, .react-html5-camera-photo-fullscreen > img {
+    width: 100vw;
+    height:100vh;
+  }
+  .react-html5-camera-photo-fullscreen > video {
+    object-fit: fill;
+  }
+  .react-html5-camera-photo-fullscreen > .display-error {
+    width: 100vw;
+    height:100vh;
+  }
+
+  .buttonLeft{
+    float:left;
+    margin-top:"5%";
+  }
+
+  .buttonRight{
+    float: right;;
+    margin-top:"5%";
+  }

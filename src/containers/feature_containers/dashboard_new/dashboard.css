@@ -1,0 +1,7 @@
+.fullscreen {
+  width: 100%;
+}
+
+.fullscreen-enabled div {
+  background: #faf8f8;
+}

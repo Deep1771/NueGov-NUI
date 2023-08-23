@@ -1,0 +1,14 @@
+{
+  "groupName": "Sign",
+  "entityName": "Sign",
+  "appName": "NueGov",
+  "moduleName": "Infrastructure",
+  "Asset Location Info": "test",
+  "PostInfo": "PostInfo",
+  "postType": "Square Shape",
+  "geoJSONLatLong": {
+    "formattedAddress": "449, KHB Colony, 5th Block, Koramangala, Bengaluru, Karnataka 560047, India",
+    "coordinates": [77.6192336, 12.9344856],
+    "type": "Point"
+  }
+}

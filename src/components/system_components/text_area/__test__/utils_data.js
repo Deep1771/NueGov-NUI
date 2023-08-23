@@ -1,0 +1,16 @@
+export let data = {},
+  fieldmeta = {
+    name: "textarea",
+    title: "Textarea",
+    type: "TEXTAREA",
+    placeHolder: "type here",
+    cols: 35,
+    rows: 5,
+    required: true,
+    displayOnCsv: true,
+    visible: false,
+    disable: true,
+    canUpdate: false,
+    validationRegEx: /^\w{0,10}$/,
+    info: "hi I am a text area",
+  };

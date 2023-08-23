@@ -1,0 +1,51 @@
+{
+  "appName": "NueGov",
+  "moduleName": "Admin",
+  "entityName": "Role",
+  "stampagency": {
+    "fieldToSearch": "Name",
+    "value": "CDOT Region 4",
+    "id": "5a14fa60ff688f1ca3efa93f"
+  },
+  "agencyuser": {
+    "fieldToSearch": "Name",
+    "value": "CDOT Region 4",
+    "id": "5a14fa60ff688f1ca3efa93f"
+  },
+  "name": "test-automation",
+  "roleDescription": "roleDescription",
+  "roleaccess": "test",
+  "rolePermission": {
+    "features": ["Insights", "Files", "Lifecycle"],
+    "modulePermission": [
+      {
+        "moduleName": "Infrastructure",
+        "entities": [
+          {
+            "entityName": "Sign",
+            "templateId": "5cf26801ae184220a3999c99",
+            "features": ["Audits"],
+            "components": [
+              {
+                "componentName": "sign"
+              },
+              {
+                "componentName": "Post"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "moduleName": "WorkZone",
+        "entities": [
+          {
+            "entityName": "Form568",
+            "templateId": "5fcc72fdcbfe75003b5c0c89",
+            "entityType": "Approval"
+          }
+        ]
+      }
+    ]
+  }
+}

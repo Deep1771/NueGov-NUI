@@ -1,0 +1,52 @@
+/* react data grid style start  */
+.react-grid-Cell {
+  /* border:1px solid grey; */
+  background-color: white;
+  border-right: none;
+}
+
+.react-grid-Main,
+.react-grid-Grid {
+  border-radius: 5px;
+  border: none;
+}
+
+.react-grid-Cell:not(.editing) .react-grid-Cell__value {
+  overflow-y: auto !important;
+}
+.react-grid-Row ::-webkit-scrollbar {
+  display: none;
+}
+
+.react-grid-Canvas,
+.react-grid-Grid {
+  background-color: #f5f5f5;
+}
+
+.react-grid-Canvas {
+  margin-top: 1px;
+}
+.react-grid-Header {
+  background-color: #fdfdfd;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.react-grid-HeaderCell {
+  font-family: inherit;
+  background-color: #fdfdfd;
+  border-bottom: none;
+}
+
+.react-grid-HeaderCell:hover {
+  background-color: #f5f5f5;
+}
+.react-grid-checkbox {
+  border-radius: 8px;
+}
+.radio-custom + .radio-custom-label:before,
+.react-grid-checkbox + .react-grid-checkbox-label:before {
+  border-radius: 4px;
+  width: 1rem;
+  height: 1rem;
+}
+/* react data grid style end */

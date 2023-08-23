@@ -1,0 +1,105 @@
+{
+  "appName": "NueGov",
+  "moduleName": "Admin",
+  "entityName": "Agency",
+  "agencydetail": "",
+  "Name": "web Test 2",
+  "Primaryemail": "Test@test.com",
+  "PackageLevel": "Platinum",
+  "agencyZoomDetails": "test",
+  "zoomLatLong": "test",
+  "agencyPermissionSection": "test",
+  "agencyPermission": {
+    "featurePermissions": ["Insights", "calendar", "collaborator"],
+    "appPermission": [
+      {
+        "moduleName": "Infrastructure",
+        "entityPermission": [
+          {
+            "entityName": "Sign",
+            "templateId": "5cf26801ae184220a3999c99",
+            "features": ["ActionItems", "Audits"],
+            "components": [
+              {
+                "componentName": "StandardSign"
+              },
+              {
+                "componentName": "StreetName"
+              }
+            ]
+          },
+          {
+            "entityName": "Guardrail",
+            "templateId": "5f71562c0d3677003992404a"
+          },
+          {
+            "entityName": "Neighborhood",
+            "templateId": "5cf26801ae184220a3999c9c"
+          },
+          {
+            "entityName": "Route",
+            "templateId": "5cf26801ae184220a3999ca8"
+          }
+        ]
+      },
+      {
+        "moduleName": "Internal-Test",
+        "entityPermission": [
+          {
+            "entityName": "TestPrimitive",
+            "templateId": "5cf26801ae184220a3999d27"
+          },
+          {
+            "entityName": "UnitTest",
+            "templateId": "5cf26801ae184220a3999d20"
+          }
+        ]
+      },
+      {
+        "moduleName": "WorkZone",
+        "entityPermission": [
+          {
+            "entityName": "ConstructionWorkZone",
+            "templateId": "5db2c46c9bd09e003ba31c58"
+          },
+          {
+            "entityName": "ConstructionClosure",
+            "templateId": "5db2c49f9bd09e003ba31c5a"
+          },
+          {
+            "entityName": "Form568",
+            "templateId": "5fcc72fdcbfe75003b5c0c89",
+            "entityType": "Approval"
+          }
+        ]
+      },
+      {
+        "moduleName": "Assessments",
+        "entityPermission": [
+          {
+            "entityName": "SignAssessment",
+            "templateId": "5cf26801ae184220a3999ada",
+            "templateName": "denvergovSignAssessment"
+          },
+          {
+            "entityName": "GuardrailAssessment",
+            "templateId": "5f71564e0d3677003992404d"
+          },
+          {
+            "entityName": "PostCondition",
+            "templateId": "5f7156730d36770039924050"
+          }
+        ]
+      },
+      {
+        "moduleName": "Work Orders",
+        "entityPermission": [
+          {
+            "entityName": "SignWorkOrder",
+            "templateId": "5cf26801ae184220a3999ae6"
+          }
+        ]
+      }
+    ]
+  }
+}

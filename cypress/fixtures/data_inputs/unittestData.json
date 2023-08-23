@@ -1,0 +1,29 @@
+{
+  "appName": "Internal",
+  "moduleName": "Internal-Test",
+  "entityGroupName": "UnitTest",
+  "entityFriendlyName": "Unit Test",
+  "templateName": "UnitTest",
+  "number": 3,
+  "time1": true,
+  "list": "ONE",
+  "time2": false,
+  "sequence": "ORD-000014",
+  "pairedList": {
+    "infraredMake": "Econolite",
+    "infraredModel": "Accuscan 600"
+  },
+  "password": "admin@Assetgov12",
+  "radioButton2": "on",
+  "radioButton": true,
+  "currency": {
+    "currency": "AMD",
+    "amount": 1
+  },
+  "id": "UnitTest-d1ba208a-8684-4dbd-b421-0dd46e78212d",
+  "directiveCount": 0,
+  "multilist": ["three", "two", "one"],
+  "checkbox": ["Banglore", "Mysore"],
+  "date": "2021-09-23T11:42:15.595Z",
+  "dateAndtime00": "2021-09-23T11:42:15.597Z"
+}

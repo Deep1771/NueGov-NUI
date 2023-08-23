@@ -1,0 +1,12 @@
+{
+  "loginCredentials": {
+    "validUsername": "uppoor@navjoyinc.com",
+    "validPassword": "Testing@321",
+    "invalidUsername": "test@navjoyinc.com",
+    "invalidPassword": "Testing@000"
+  },
+  "forgotPassword": {
+    "validEmail": "test@test.com",
+    "invalidEmail": "user@user.com"
+  }
+}

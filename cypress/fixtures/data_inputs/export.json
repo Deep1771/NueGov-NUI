@@ -1,0 +1,12 @@
+{
+  "groupName": "TestPrimitive",
+  "friendlyName": "Test Primitive",
+  "appName": "Nuegov",
+  "FileName": { "name1": "testing1", "name2": "testing2" },
+  "replaceValue": "-",
+  "fileType": { "type1": "XML", "type2": "CSV" },
+  "toplevelFields": ["agencyContact", "time", "url", "dateAndtime00"],
+  "uncheckToplevelFields": ["time2"],
+  "componentlevelFields": ["directive"],
+  "uncheckComponentFields": ["list1", "date1"]
+}

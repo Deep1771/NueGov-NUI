@@ -1,0 +1,69 @@
+{
+  "appName": "NueGov",
+  "moduleName": "Infrastructure",
+  "entityGroupName": "Sign",
+  "entityFriendlyName": "Signs",
+  "templateName": "cdotregion4Sign",
+  "Asset Location Info": "test",
+  "geoJSONLatLong": {
+    "formattedAddress": "449, KHB Colony, 5th Block, Koramangala, Bengaluru, Karnataka 560047, India",
+    "coordinates": [77.6192336, 12.9344856],
+    "type": "Point"
+  },
+  "cameraStream": [
+    {
+      "url": "",
+      "description": ""
+    }
+  ],
+  "region": "Region4",
+  "routeDirection": "EB",
+  "fieldToSearch": "routeNumber",
+  "route": {
+    "id": "6171369d45f34f4b531edf27",
+    "routeNumber": "D-17",
+    "fieldToSearch": "routeNumber",
+    "value": "56"
+  },
+  "agencyData": "test",
+  "ownedBy": {
+    "id": "5f089af69c02ee0044f35ac8",
+    "fieldToSearch": "govAgencyName",
+    "value": "CDOT Region 4"
+  },
+  "maintainedBy": {
+    "id": "5f089af69c02ee0044f35ac8",
+    "fieldToSearch": "govAgencyName",
+    "value": "CDOT Region 4"
+  },
+  "hardware": "Section",
+  "tBracket": "",
+  "uBracket": "",
+  "rotating": "Yes",
+  "banded": "",
+  "supervisior": "Tim Miles",
+  "quickFlow": [
+    {
+      "entityFriendlyName": "Sign Assessment",
+      "entityName": "SignAssessment",
+      "objectId": "test123",
+      "route": {
+        "id": "6171369d45f34f4b531edf27",
+        "routeNumber": "D-17",
+        "fieldToSearch": "routeNumber",
+        "value": "56"
+      },
+      "cameraStream": [
+        {
+          "url": "dftest",
+          "description": ""
+        }
+      ],
+      "region": "Region1",
+      "routeDirection": "EB",
+      "id": "SignAssessment-4af0dbea-d1f7-4a5e-a04e-e30dd0845483",
+      "signCount": 0,
+      "PostCount": 0
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+//! HARDCODED/PROTOCOL QUERY IN ONE CONSTANT FILE
+//? IN CASE OF ANY STRUCTURAL CHANGE, IT WILL BE IN ONE PLACE
+//TODO : ADD ALL HARDCODED QUERIES WRITTEN IN DIFFERENT FILE HERE
+
+// Features
+export const TRIGGER_QUERY = {
+  appname: "Features",
+  modulename: "Notification",
+  entityname: "Trigger",
+};

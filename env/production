@@ -1,0 +1,5 @@
+REACT_APP_ENV = "PRODUCTION"
+REACT_APP_BASE_URL = "https://proxy.assetgov.com"
+REACT_APP_GOOGLE_MAPS_API_KEY = "AIzaSyA_c_rT7uCjR_opdWFjsfzlO5oaSToZWt0"
+REACT_APP_SENTRY_URL = "https://f3dbe146cead4a9d92ff4a2457438532@o472096.ingest.sentry.io/5505225"
+SKIP_PREFLIGHT_CHECK = true

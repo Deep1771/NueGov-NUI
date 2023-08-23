@@ -1,0 +1,15 @@
+export const initialState = {
+  fileType: undefined,
+  importName: "",
+  importMode: "",
+  mappingFields: [],
+  selectedCheckbox: {},
+  selectedEntityTemplate: undefined,
+  selectedFiles: [],
+  selectedShapeFile: undefined,
+  templateObj: undefined,
+  appName: undefined,
+  moduleName: undefined,
+  entityName: undefined,
+  unique_key: undefined,
+};

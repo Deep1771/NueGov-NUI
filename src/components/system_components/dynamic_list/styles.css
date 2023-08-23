@@ -1,0 +1,21 @@
+.table {
+  font-family: inherit;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.td,
+.th {
+  border: 1px solid #9e9e9e;
+  text-align: left;
+  padding: 8px;
+}
+
+.tr:nth-child(even) {
+  background-color: #fbfbfb;
+}
+
+.t_selector {
+  text-align: center;
+  width: 50px;
+}

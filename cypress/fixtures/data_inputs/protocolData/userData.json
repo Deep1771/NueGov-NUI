@@ -1,0 +1,58 @@
+{
+  "appName": "NueGov",
+  "moduleName": "Admin",
+  "entityName": "User",
+  "users": [
+    {
+      "entityName": "User",
+      "firstName": "super",
+      "lastName": "admin",
+      "email": "test@test.com",
+      "username": "test@123",
+      "password": "Testing@123",
+      "superAdmin": true,
+      "userdetail": "test",
+      "Roles and Permissions": "test",
+      "stampagency": {
+        "fieldToSearch": "Name",
+        "id": "5b47103dfb5dd3004cd6c309",
+        "sys_gUid": "agency-4a3fdd6c-d28f-435b-968a-5c73a212afe6",
+        "value": "CDOT Gov"
+      },
+      "agencyuser": {
+        "fieldToSearch": "Name",
+        "id": "5b47103dfb5dd3004cd6c309",
+        "sys_gUid": "agency-4a3fdd6c-d28f-435b-968a-5c73a212afe6",
+        "value": "CDOT Gov"
+      }
+    },
+    {
+      "entityName": "User",
+      "firstName": "role",
+      "lastName": "user",
+      "email": "test@test.com",
+      "username": "roleuser@test.com",
+      "password": "Testing@123",
+      "userdetail": "test",
+      "Roles and Permissions": "test",
+      "roleName": {
+        "id": "60a78cf31af4da003aa10c8c",
+        "sys_gUid": "Role-f79159e8-0ac5-4234-ba20-f666fe47c511",
+        "value": "CDOT Gov",
+        "fieldToSearch": "agencyuser.Name"
+      },
+      "stampagency": {
+        "fieldToSearch": "Name",
+        "id": "5b47103dfb5dd3004cd6c309",
+        "sys_gUid": "agency-4a3fdd6c-d28f-435b-968a-5c73a212afe6",
+        "value": "CDOT Gov"
+      },
+      "agencyuser": {
+        "fieldToSearch": "Name",
+        "id": "5b47103dfb5dd3004cd6c309",
+        "sys_gUid": "agency-4a3fdd6c-d28f-435b-968a-5c73a212afe6",
+        "value": "CDOT Gov"
+      }
+    }
+  ]
+}

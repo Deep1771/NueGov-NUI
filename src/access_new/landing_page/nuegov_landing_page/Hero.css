@@ -1,0 +1,146 @@
+.hero_container {
+  display: flex;
+  flex: 8;
+  height: auto;
+  flex-direction: column;
+}
+
+.header_container {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 1rem 0rem 1rem 0rem;
+  /* animation: zoom-in-zoom-out 1s ease-in-out; */
+}
+/* @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1.05, 1.05);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  } */
+.content_heading {
+  font-family: "Poppins";
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  color: #005da8;
+}
+.content_tagline {
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.content_container {
+  display: flex;
+  width: auto;
+  flex-wrap: wrap-reverse;
+}
+.left_container {
+  display: flex;
+  flex: 5;
+  flex-direction: column;
+  padding-left: 4rem;
+}
+.tagline {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: #212121;
+}
+.right_container {
+  display: flex;
+  flex: 5;
+  justify-content: center;
+  align-items: center;
+}
+.brand_image {
+  display: flex;
+  position: relative;
+  height: auto;
+  width: 86%;
+  margin: auto;
+  /* even more control with max-width */
+  /* min-width: 320px; */
+  animation: zoom-in-zoom-out 0.7s ease-in-out;
+}
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1.03, 1.03);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+/* .bg_image {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  width: 40%;
+  opacity: 0.3;
+  background-clip: content-box;
+  margin: auto;
+} */
+.client_container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: rgba(85, 119, 255, 0.1); */
+  padding: 1rem 0rem 1rem 0rem;
+  border-top: 1px solid #ebebeb;
+}
+.client_header {
+  font-family: "Poppins";
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.client_logo_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.client_logo {
+  height: 64px;
+  width: auto;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .content_container {
+    display: flex;
+    flex-direction: column-reverse;
+    width: auto;
+    height: auto;
+    margin-bottom: 2rem;
+    margin-top: 1.4rem;
+  }
+  .brand_image {
+    display: flex;
+    position: relative;
+    height: auto;
+    width: auto;
+    /* even more control with max-width */
+    /* min-width: 320px; */
+    animation: zoom-in-zoom-out 0.7s ease-in-out;
+  }
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1.03, 1.03);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+  .client_logo {
+    height: 64px;
+    width: auto;
+    margin-bottom: 1.5rem;
+  }
+}

@@ -1,0 +1,64 @@
+.TableWrap {
+    position: relative ;
+    z-index: 1;
+    overflow: auto ;
+  }
+
+  .TableWrap table {
+    width: 100%;
+    /* margin: auto ; */
+    border-collapse: collapse;
+    border-spacing: 0;
+    overflow: hidden;
+    width: fit-content;
+  }
+  
+  .TableWrap th,
+  .TableWrap td {
+    padding: 5px 10px;
+    border: 0.5px solid #f2f2f2;
+    text-overflow: ellipsis;  
+    text-align: center;
+    overflow: hidden;
+    
+  }
+
+  .TableWrap thead th {
+    background: #f2f2f2;
+    border: 0.5px solid white;
+    top: 0 ;
+    font-weight: 500;
+  }
+
+  .TableWrap tfoot,
+  .TableWrap tfoot th,
+  .TableWrap tfoot td {
+    position: -webkit-sticky;
+    position: sticky ;
+    bottom: 0 ;
+    z-index:4;
+    border: 1px solid white;
+    font-weight: 500;
+  }
+
+  .TableWrap tfoot td {
+    font-weight: 500;
+    background: #f2f2f2;
+  }
+
+  .TableWrap thead,
+  .TableWrap tfoot{
+      display:block;
+      background-color: white;
+    }
+
+  .TableWrap tbody {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    max-height: 15rem;
+  }
+
+  .TableWrap tfoot{
+    display:block;
+  }

@@ -1,0 +1,4 @@
+REACT_APP_ENV = "DEVELOP"
+REACT_APP_BASE_URL = "https://proxy.assetgov-dev.com"
+REACT_APP_GOOGLE_MAPS_API_KEY = "AIzaSyA_c_rT7uCjR_opdWFjsfzlO5oaSToZWt0"
+SKIP_PREFLIGHT_CHECK = true

@@ -1,0 +1,10 @@
+/* react data grid style start  */
+.react-grid-Cell {
+  /* border:1px solid grey; */
+  background: #ffffff;
+}
+.react-grid-Main,
+.react-grid-Grid {
+  border-radius: 5px;
+}
+/* react data grid style end */

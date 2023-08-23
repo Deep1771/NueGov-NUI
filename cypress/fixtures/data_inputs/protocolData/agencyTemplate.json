@@ -1,0 +1,32 @@
+{
+  "entityName": "AgencyTemplate",
+  "entityGroupName": "AgencyTemplate",
+  "appName": "NJAdmin",
+  "moduleName": "NJ-System",
+  "data": {
+    "agencyInformation": {
+      "fieldToSearch": "Name",
+      "id": "6184bc85fde0cc0051b3b38b",
+      "sys_gUid": "Agency-e57d5f9f-37da-40d5-87ec-533c0bed4934",
+      "value": "test"
+    },
+    "templates": [
+      {
+        "fieldToSearch": "sys_templateGroupName.sys_groupName",
+        "id": "61668177c618db005077c431",
+        "value": "User"
+      },
+      {
+        "fieldToSearch": "sys_templateGroupName.sys_groupName",
+        "id": "618dfdfd18876d00475d0786",
+        "value": "User"
+      }
+    ],
+    "defaultTemplate": {
+      "fieldToSearch": "sys_templateName",
+      "id": "5cf26801ae184220a3999c9e",
+      "sys_groupName": "User",
+      "value": "User"
+    }
+  }
+}

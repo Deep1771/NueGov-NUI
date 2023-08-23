@@ -1,0 +1,26 @@
+{
+  "presetName": "presetTest",
+  "default": true,
+  "active": true,
+  "defaultPresetName": "defaultone",
+  "activePresetName": "activepreset",
+  "moduleEntities": [
+    {
+      "moduleName": "Infrastructure",
+      "entityGroups": ["TrafficSignal", "Sign"]
+    },
+    {
+      "moduleName": "WorkZone",
+      "entityGroups": ["MaintenanceClosure", "MaintenanceWorkZone"]
+    }
+  ],
+  "editPreset": {
+    "presetName": "activepreset",
+    "moduleEntities": [
+      {
+        "moduleName": "Internal-Test",
+        "entityGroups": ["UnitTest"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "ignoreTestFiles": "**/example/*",
+  "chromeWebSecurity": false,
+  "projectId": "f859sy",
+  "screenshotOnRunFailure": true,
+  "trashAssetsBeforeRuns": true,
+  "waitForAnimations": true,
+  "experimentalStudio": true,
+  "pluginsFile": false,
+  "record": true,
+  "videosFolder": "cypress/reports/videos",
+  "screenshotsFolder": "cypress/reports/screenshots",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "reportFilename": "report",
+    "overwrite": false,
+    "html": true,
+    "json": true,
+    "charts": true
+  },
+  "retries": {
+    "runMode": 1,
+    "openMode": 0
+  },
+  "viewportWidth": 1280,
+  "viewportHeight": 720,
+  "testFiles": "**/*.spec.js*",
+  "video": true,
+  "screenshot": true
+}

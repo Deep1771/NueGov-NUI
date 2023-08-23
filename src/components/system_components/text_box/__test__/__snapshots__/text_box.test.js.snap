@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SystemTextbox Test snapshot component 1`] = `
+<div
+  className="MuiFormControl-root MuiTextField-root"
+  style={
+    Object {
+      "width": "undefined%",
+    }
+  }
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+    data-shrink={false}
+  >
+    enter value
+    <span
+      className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+    >
+       
+      *
+    </span>
+  </label>
+  <div
+    className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+    onClick={[Function]}
+  >
+    <input
+      aria-invalid={false}
+      autoFocus={false}
+      className="MuiInputBase-input MuiInput-input"
+      disabled={false}
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="select textbox"
+      required={true}
+      rows={4}
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
