@@ -1,0 +1,18 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": false,
+  "eslint.alwaysShowStatus": true,
+  // "files.autoSave": "onFocusChange",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "svgviewer.enableautopreview": true,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#023610",
+    "titleBar.activeBackground": "#024C17",
+    "titleBar.activeForeground": "#ECFEF1"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
+}
